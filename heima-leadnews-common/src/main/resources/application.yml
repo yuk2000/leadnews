@@ -1,0 +1,16 @@
+#全局端口定义server:
+# 全局字符集设置
+spring:
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  aop:
+    proxy-target-class: true
+server:
+  tomcat:
+    uri-encoding: utf-8
+tess4j:
+  data-path: D:\Java\Git\leadnews\tessdata
+  language: chi_sim
